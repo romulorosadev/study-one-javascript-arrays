@@ -22,7 +22,7 @@ function exibirLivros(livrosLista){
                 ${livrosItem.titulo}
             </h2>
             <p class="livro__descricao">${livrosItem.autor}</p>
-            <p class="livro__preco" id="preco">${livrosItem.preco.toFixed(2)}</p>
+            <p class="livro__preco" id="preco">R$ ${livrosItem.preco.toFixed(2)}</p>
             <div class="tags">
                 <span class="tag">${livrosItem.categoria}</span>
             </div>
