@@ -2,9 +2,9 @@
 // 2) Declarar uma variavel com o endpoint (url/endereço da api)
 // 3) Chamar a função que faz a requisição e traz os dados da api
 // 4) Criar uma função assincrona
-// 5) A resposta deve esperar a requisição ao endpoint
+// 5) Ao chamar essa função sua resposta deve esperar a requisição ao endpoint
 // 6) A resposta deve esperar montar o json e ao final atribuir a livros
-// 7) Pra melhor exibição dos dados pedinmos pra serem exibidos no console, mas em formato de tabela 
+// 7) Pra melhor exibição dos dados pedimos pra serem exibidos no console, mas em formato de tabela 
 
 
 //4
