@@ -4,7 +4,7 @@
 // 22) Declarada a variavel para identificar e armazenar o botao com seu id
 // 23) Declarada a variavel para identificar e armazenar o valor de value do elemento em questão
 // 24) Declarada a variavel pra armazenar o filtro de livros de acordo com a categoria 
-// 25) Exibir no console os dados em formato de tabela
+// 25) Substituir o console.log pela função exibirLivros
 
 // 19
 const inButtons = document.querySelectorAll(".btn");
@@ -21,5 +21,5 @@ function filtrarLivros(){
     // 24
     let livrosFiltrados = livros.filter(livro => livro.categoria == categoria);
     // 25
-    console.table(livrosFiltrados);
+    exibirLivros(livrosFiltrados);
 }

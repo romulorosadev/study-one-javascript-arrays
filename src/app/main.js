@@ -15,8 +15,8 @@
 // 22) Declarar a variavel para identificar e armazenar o botao com seu id
 // 23) Declarar a variavel para identificar e armazenar o valor de value do elemento em questão
 // 24) Declarar a variavel pra armazenar o filtro de livros de acordo com a categoria 
-// 25) Exibir no console os dados do filtro referente em formato de tabela
-
+// 25) Substituir o console.log pela função exibirLivros
+// 26) MetodoForEach - Toda vez que essa função for chamada ela primeiro limpa o elemento que armazena os livros a serem exibidos e só depois itera o array com os livros
 
 //4
 async function getBuscarLivrosApi() {
